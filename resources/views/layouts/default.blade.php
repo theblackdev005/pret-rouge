@@ -56,6 +56,69 @@
     <link rel="stylesheet" type="text/css" href="{{ asset_css('responsive.css') }}">
     <!-- responsive css -->
     <link rel="stylesheet" type="text/css" href="{{ asset_css('custom.css') }}">
+    <style>
+        /* Deployment safety net: keeps the header usable even if theme CSS is partially skipped. */
+        .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info,
+        .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix,
+        .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu,
+        .full-width-header .rs-header .expand-btn-inner ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info,
+        .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix,
+        .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu,
+        .full-width-header .rs-header .expand-btn-inner ul,
+        .full-width-header .rs-header .menu-area .row-table {
+            display: flex;
+            align-items: center;
+        }
+
+        .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info,
+        .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix,
+        .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu,
+        .full-width-header .rs-header .expand-btn-inner ul {
+            gap: 18px;
+        }
+
+        .full-width-header .rs-header .menu-area .row-table {
+            justify-content: space-between;
+            gap: 24px;
+        }
+
+        .full-width-header .rs-header .menu-area .row-table .col-cell {
+            flex: 0 0 auto;
+        }
+
+        .full-width-header .rs-header .menu-area .row-table .col-cell:nth-child(2) {
+            flex: 1 1 auto;
+        }
+
+        .full-width-header .rs-header .menu-area .logo-area a {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .full-width-header .rs-header .menu-area .logo-area a .sticky-logo {
+            display: none;
+        }
+
+        .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li,
+        .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-contact .rs-contact-info li,
+        .full-width-header .rs-header .toolbar-area.topbar-style1 .toolbar-sl-share .clearfix li,
+        .full-width-header .rs-header .expand-btn-inner ul li {
+            list-style: none;
+            margin: 0;
+        }
+
+        @media (max-width: 991px) {
+            .hidden-md {
+                display: none !important;
+            }
+        }
+    </style>
     
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17045015802">

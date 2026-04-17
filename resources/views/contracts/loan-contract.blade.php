@@ -192,7 +192,7 @@
                 <div class="panel-title">{{ __('TRAD_416') }}</div>
                 <strong>{{ __('TRAD_417') }}</strong> {{ $dateContrat }}<br>
                 <strong>{{ __('TRAD_418') }}</strong> {{ $numeroContrat }}<br>
-                <strong>{{ __('TRAD_419') }}</strong> JemloPay
+                <strong>{{ __('TRAD_419') }}</strong> {{ SITE_NAME }}
             </div>
         </td>
     </tr>
@@ -293,7 +293,7 @@
     <tr>
         <td>
             <div class="sign-line"></div>
-            <strong>JEMLOPAY ELECTRONIC ISSUER E.D.E, S.L.</strong>
+            <strong>{{ SITE_NAME }}</strong>
         </td>
         <td>
             <div class="sign-line"></div>

@@ -4,11 +4,11 @@ define('CHAT_API_KEY', '');
 define('DEFAULT_SITE_LANGUAGE', 'fr');
 define('ALLOW_WEBPAGE_LOADER', false);
 
-define('SITE_NAME', 'JemloPay Finance®');
+define('SITE_NAME', 'Optivest');
 define('WEBSITE_CREATED_DATE', '2018-2025');
-define('SITE_ADDRESS', 'Ferdinand 262610 Edegem, Belgique');
+define('SITE_ADDRESS', 'optivestgroup.com');
 
-define('SITE_EMAIL', 'contact@jemlopay.eu');
+define('SITE_EMAIL', 'noreply@optivestgroup.com');
 define('SITE_PHONE', '+32460226774');
 define('SITE_PHONE_2', '');
 

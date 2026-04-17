@@ -2,7 +2,7 @@
 
 @section('content')
 
-<!-- HERO FINAL JEMLOPAY -->
+<!-- HERO FINAL OPTIVEST -->
 <section class="jp-final-hero">
     <div class="jp-final-overlay"></div>
 
@@ -54,7 +54,7 @@
             <!-- RIGHT IMAGE -->
             <div class="col-lg-6">
                 <div class="jp-final-image">
-                    <img src="{{ asset_img('slider/style1/h1-1.jpg') }}" alt="JemloPay financement">
+                    <img src="{{ asset_img('slider/style1/h1-1.jpg') }}" alt="Optivest financement">
                 </div>
             </div>
 
